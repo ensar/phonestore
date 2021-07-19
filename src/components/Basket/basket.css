@@ -1,0 +1,160 @@
+.basketContainer {
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.orders {
+  width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.orders .order {
+  width: 600px;
+  height: 100px;
+  border-radius: 5px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #70a1ff;
+  margin-top: 40px;
+  border: 1px solid #fff;
+  flex-wrap: wrap;
+}
+.orderDetail {
+  display: flex;
+  align-items: center;
+}
+.order img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+}
+
+.order .name {
+  font-size: 16px;
+  color: #fff;
+  width: 150px;
+  height: 80px;
+  line-height: 80px;
+  word-wrap: break-word;
+  margin-left: 10px;
+}
+.order .orderPrice {
+  font-size: 20px;
+  color: #fff;
+}
+.count input {
+  width: 50px;
+  padding: 2px;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.delBtn {
+  color: #e74c3c;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.delBtn:hover {
+  transform: scale(1.1);
+}
+.basketLeft h4 {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+body.dark .basketLeft h4 {
+  color: #fff;
+}
+.goShopping {
+  background: transparent;
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.basketRight {
+  width: 400px;
+  height: 280px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  margin-left: 40px;
+  border: 1px solid #fff;
+}
+.basketRight h4 {
+  border-bottom: 1px solid #fff;
+  padding:10px;
+  margin-bottom: 20px;
+}
+body.dark .basketRight h4{
+  color:#70a1ff;
+}
+.basketRight h5{
+  text-align:end;
+  color:#e74c3c;
+  border-top: 1px solid #fff;;
+  padding: 20px;
+}
+.basketRight h6 {
+  text-align:end;
+  padding: 0 20px;
+}
+.basketRight button {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #2ecc71;
+  margin-top: 10px;
+}
+.basketRight button:hover {
+  background-color: #13b456;
+}
+
+@media screen and (max-width:799px){
+  .basketLeft{
+    width: 100%;
+  }
+  .orders{
+    padding: 5px;
+    width: 100vw;
+  }
+  .order{
+    width: calc(100vw - 40px) !important;
+    border:none;
+    margin:0 auto;
+  }
+  .order img{
+    width:60px;
+    height: 60px;
+  }
+  .order .name{
+    width: 100px;
+  }
+  .basketLeft h4{
+    margin-top: 20px;
+  }
+  .order .orderPrice {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:460px){
+  .order .name{
+    display:none;
+  }
+  .basketRight{
+    margin:50px auto;
+  }
+}

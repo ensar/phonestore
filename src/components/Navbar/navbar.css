@@ -1,0 +1,56 @@
+nav{
+    width:100vw;
+    height:60px;
+    display: flex;
+    background-color:#fff ;
+    justify-content:space-between;
+    padding: 0 20px;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+.navLogo{
+    width:200px;
+    height:100%;
+    font-size: 22px;
+    line-height: 60px;
+    font-weight: 500;
+    color:#0c0c0c;
+    text-decoration: none;
+}
+.menu{
+    height: 100%;
+    width: 140px;
+    line-height: 60px;
+}
+.menu button{
+    margin-left: 25px;
+    background:#fff;
+    border:none;
+    cursor: pointer;
+}
+body.dark .menu button{
+    background:#0c0c0c;
+    border-bottom: 1px solid #fff;
+    height: 60px;
+}
+
+.basket{
+    position: relative;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.basketCount{
+    position: absolute;
+    top:-8px;
+    left:16px;
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    text-align:center;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: red;
+    color:#fff;
+    line-height: 20px;
+}

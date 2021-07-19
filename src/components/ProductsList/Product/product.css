@@ -1,0 +1,50 @@
+.box{
+    width:350px;
+    height:500px;
+    border-radius: 1rem;
+    border:2px solid #ddd;
+    margin:40px 100px;
+    background:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.brand{
+    width:70px;
+    height:25px;
+    text-align: center;
+    font-size: 16px;
+    color:#fff;
+    border-radius: 4px;
+    background:#7498a3;
+}
+.box img{
+    width:300px;
+    height:280px;
+    margin-bottom: 5px;
+}
+
+.boxFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+.boxBtn{
+    width:140px;
+    height: 50px;
+    border:1px solid #2ecc71;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: 200ms;
+}
+.boxBtn:hover{
+    background-color: #2ecc71;
+    color:#fff;
+}

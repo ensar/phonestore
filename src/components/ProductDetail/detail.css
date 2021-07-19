@@ -1,0 +1,121 @@
+.detail {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.productPhotos {
+  width: 450px;
+  height: 350px;
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productPhotos img {
+  width: 400px;
+  height: 300px;
+}
+.productPhotos button {
+  position: absolute;
+  font-size: 40px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 40px;
+  width: 60px;
+  border: 1px solid #090c10;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+  user-select: none;
+}
+.productPhotos button:hover {
+  background-color: #090c10;
+}
+.productPhotos .prev {
+  left: 20px;
+}
+.productPhotos .next {
+  right: 20px;
+}
+.productDetails {
+  width: 600px;
+  height: 350px;
+  border-left: 2px solid #ddd;
+  padding: 0 20px;
+}
+.detailHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.detailHeader h1 {
+  color: #e74c3c;
+}
+.detailHeader h2 {
+  border-bottom: 2px solid #ddd;
+}
+body.dark .detailHeader h2 {
+  color:#fff;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0 60px 0;
+}
+.color {
+  background: transparent;
+  border: 1px solid #ddd;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 40px;
+}
+.color:not(:last-child) {
+  margin-right: 10px;
+}
+body.dark .color {
+  color: #fff;
+}
+body.dark li {
+  color: #fff;
+}
+
+.addBasket {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: #2ecc71;
+  margin-bottom: 20px;
+}
+.addBasket:hover {
+  background-color: #13b456;
+}
+
+@media screen and (max-width: 399px) {
+  .productPhotos img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 559px) {
+  .productDetails {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1049px) {
+  .productDetails {
+    border: none;
+  }
+}

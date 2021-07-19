@@ -1,0 +1,8 @@
+export const PRODUCT_PENDING = "PRODUCT_PENDING";
+export const PRODUCT_FULFILLED = "PRODUCT_FULFILLED";
+export const PRODUCT_FAIL = "PRODUCT_FAIL";
+export const GET_DETAIL = "GET_DETAIL";
+export const ADD_TO_CART = "ADD_TO_CART";
+export const REMOVE_FROM_CART = "REMOVE_FROM_CART";
+export const CHANGE_COUNT = "CHANGE_COUNT";
+export const SORTED_LIST = "SORTED_LIST"

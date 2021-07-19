@@ -1,0 +1,93 @@
+{
+    "phones":[
+        {
+            "id":1,
+            "name":"Galaxy A51",
+            "brand":"Samsung",
+            "price":3699,
+            "details":[
+                "Sonsuz-O Ekran",
+                "Prizmatik Arka Kapak Tasarımı",
+                "48 MP Dörtlü Arka Kamera"
+            ],
+            "colors":[
+                {"color":"Gümüş",
+                "images":["https://samsung.akinoncdn.com/products/2021/05/05/7855/3a4501ee-d578-46ff-8fde-71ca9ad2426f_size616x616.jpg",
+                    "https://samsung.akinoncdn.com/products/2021/05/05/7855/98bf569e-7756-4673-a4b3-76c46b065b85_size616x616.jpg",
+                    "https://samsung.akinoncdn.com/products/2021/05/05/7855/058018fc-76bd-417f-9b38-e55c35cb6dc5_size1848x1848.jpg"]
+                },
+                {"color":"Mavi",
+                "images":["https://samsung.akinoncdn.com/products/2021/05/05/7856/f8bff384-4d2e-4095-8690-31f7e580a5d3_size1848x1848.jpg",
+                    "https://samsung.akinoncdn.com/products/2021/05/05/7856/3a03ec6f-3c36-4482-97cb-5b841e044c8d_size1848x1848.jpg"]
+                },
+                {"color":"Siyah",
+                "images":["https://samsung.akinoncdn.com/products/2021/05/05/4098/cc04138d-a4e1-40a1-928e-0ed1008f2446_size1848x1848.jpg",
+                    "https://samsung.akinoncdn.com/products/2021/05/05/4098/a38a9143-390b-44f8-8fa1-def62671da86_size1848x1848.jpg"]
+                }
+            ]
+
+        },
+        {
+            "id":2,
+            "name":"Iphone 11",
+            "brand":"Apple",
+            "price":8099,
+            "details":[
+                "IOS 13",
+                "Üçüncü nesil Neural Engine birimine sahip A13 Bionic çip",
+                "128GB"
+            ],
+            "colors":[
+                {"color":"Siyah",
+                "images":["https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79157428/fee_786_587_png/APPLE-iPhone-11-128GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
+                    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79157430/fee_786_587_png/APPLE-iPhone-11-128GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah"]
+                },
+                {"color":"Beyaz",
+                "images":["https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79157709/fee_786_587_png/APPLE-iPhone-11-128GB-Ak%C4%B1ll%C4%B1-Telefon-Beyaz",
+                    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79157712/fee_786_587_png/APPLE-iPhone-11-128GB-Ak%C4%B1ll%C4%B1-Telefon-Beyaz"]
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Redmi Note 10",
+            "brand":"Xiaomi",
+            "price":3899,
+            "details":[
+                "128GB",
+                "Android 10"
+            ],
+            "colors":[
+                {"color":"Gri",
+                "images":["https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_85343660/fee_786_587_png/XIAOMI-Redmi-Note-10-6GB-128GB-Ak%C4%B1ll%C4%B1-Telefon-Gri",
+                    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_85343662/fee_786_587_png/XIAOMI-Redmi-Note-10-6GB-128GB-Ak%C4%B1ll%C4%B1-Telefon-Gri"]
+                },
+                {"color":"Yeşil",
+                "images":["https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_85343497/fee_786_587_png/XIAOMI-Redmi-Note-10-6GB-128GB-Ak%C4%B1ll%C4%B1-Telefon-Ye%C5%9Fil",
+                    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_85343500/fee_786_587_png/XIAOMI-Redmi-Note-10-6GB-128GB-Ak%C4%B1ll%C4%B1-Telefon-Ye%C5%9Fil"]
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":"Iphone 12",
+            "brand":"Apple",
+            "price":10699,
+            "details":[
+                "IOS 14",
+                "64GB",
+                "Ekran Boyutu: 6.1 İnç"
+            ],
+            "colors":[
+                {"color":"Siyah",
+                "images":["https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79065545/fee_786_587_png/APPLE-iPhone-12-64GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah",
+                    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79479430/fee_786_587_png/APPLE-iPhone-12-64GB-Ak%C4%B1ll%C4%B1-Telefon-Siyah"]
+                },
+                {"color":"Mavi",
+                "images":["https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79124302/fee_786_587_png/APPLE-iPhone-12-128GB-Ak%C4%B1ll%C4%B1-Telefon-Mavi",
+                    "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_79124301/fee_786_587_png/APPLE-iPhone-12-128GB-Ak%C4%B1ll%C4%B1-Telefon-Mavi"]
+                }
+            ]
+        }
+    ]
+}
